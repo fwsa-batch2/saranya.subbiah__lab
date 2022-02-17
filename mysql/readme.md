@@ -568,4 +568,6 @@ select sum(age) from students;
 |:-----|
 |       56 |
 ###### 1 row in set (0.00 sec)
+njdoijdsoa
+
 
