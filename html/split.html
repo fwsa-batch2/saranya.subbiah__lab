@@ -1,0 +1,17 @@
+<html>
+    <body>
+        <script>
+            function sliceIntoChunks(arr, chunkSize) {
+                const a = [];
+                while (arr.length > 0) {
+                   const chunk = arr.slice(0, chunkSize);
+                     a.push(chunk);
+                }
+                return a;
+            }
+
+            const arr = [1,2,3,4,5,6,7,8,9,10];
+            console.log(sliceIntoChunks(arr, 3));
+        </script>
+    </body>
+</html>
