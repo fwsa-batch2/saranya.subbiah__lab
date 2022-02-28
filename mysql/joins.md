@@ -1,5 +1,5 @@
-##### Joins
-##### Inner Join
+
+#### Inner Join
 
 ``` syntax
 select * from class inner join class2 on class.mark=class2.mark;
@@ -26,7 +26,7 @@ select class.mark,class2.mark from class inner join class2 on class.mark=class2.
 ###### 3 rows in set (0.00 sec)
 ***
 
-##### Left Join 
+#### Left Join 
 
 ``` syntax
 select * from class left join class2 on class.mark=class2.mark;
@@ -53,7 +53,7 @@ select class.mark,class2.mark from class left join class2 on class.mark=class2.m
 ###### 3 rows in set (0.01 sec)
 ***
 
-##### Right Join
+#### Right Join
 
 ``` syntax
  select * from class right join class2 on class.mark=class2.mark;
@@ -81,7 +81,7 @@ select class.mark,class2.mark from class left join class2 on class.mark=class2.m
 ###### 3 rows in set (0.00 sec)
 *** 
 
-##### Cross Join
+#### Cross Join
 
 ``` syntax
 select * from class cross join class2;
