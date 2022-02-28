@@ -1,12 +1,5 @@
 ## Indexes
 
-#### Type of Index
-
-| Types               |
-|:--------------------|
-| Clustered index     |
-| Non-clustered index |
-
 #### Create Index
 
 ```syntax
