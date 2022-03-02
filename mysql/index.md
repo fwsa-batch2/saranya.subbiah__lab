@@ -66,7 +66,7 @@ create index ix_name on class (name asc);
 ###### Records: 0  Duplicates: 0  Warnings: 0
 ***
 
-#### Unique Index 
+#### Unique Index
 
 ```syntax
 create unique index un_ix_name on class (name);
