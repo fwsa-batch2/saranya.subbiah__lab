@@ -1,3 +1,5 @@
+### MySQL Exercises
+
 
 ``` syntax
 create table students (id int primary key auto_increment,name varchar(100) not null,email varchar(100) not null,mobile_no bigint not null,password varchar(100) not null,gender char(1) not null,dob date,created_date timestamp not null default current_timestamp,unique (email),check ( gender in ('M','F'))); 
