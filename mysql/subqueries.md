@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 
 ``` syntax
 use supply;
