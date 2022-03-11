@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 
 ``` syntax
 use supply;
@@ -191,7 +192,6 @@ select suppliers.sup_name,shipments.quantity from suppliers,shipments where supp
 | Milkybar   |       15 |
 
 ###### 6 rows in set (0.00 sec)
-
 
 
 
