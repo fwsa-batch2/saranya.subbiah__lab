@@ -209,21 +209,30 @@ desc Roles;
 ###### 3 rows in set (0.00 sec)
 
 ```syntax
-create table Bus(Bus_id int primary key, Bus_type varchar(30), Bus_Desc varchar(30));
-```
-##### Query OK, 0 rows affected (0.04 sec)
+ insert into Roles values ('1001','Admin','Add Buses'),('1002','User','Book Tickets'),('1003','User','Online Payment'),('1004','Admin','Delete Buses'),('1005','Admin','Change Time'),('1006','Admin','Add new features'),('1007','Admin','Change details of Buses'),('1008','Admin','Insert Blogs'),('1009','Admin','Change contact details'),('1010','User','Give Reviews');
+ ```
+###### Query OK, 10 rows affected (0.01 sec)
+###### Records: 10  Duplicates: 0  Warnings: 0
 
 ```syntax
-desc Bus;
+select * from Roles;
 ```
 
-| Field    | Type        | Null | Key | Default | Extra |
-|:-----|:----|:----|:----|:-----|:------|
-| Bus_id   | int         | NO   | PRI | NULL    |       |
-| Bus_type | varchar(30) | YES  |     | NULL    |       |
-| Bus_Desc | varchar(30) | YES  |     | NULL    |       |
+| Role_id | Role_Name | Role_Desc               |
+|:----|:-----|:----|
+|    1001 | Admin     | Add Buses               |
+|    1002 | User      | Book Tickets            |
+|    1003 | User      | Online Payment          |
+|    1004 | Admin     | Delete Buses            |
+|    1005 | Admin     | Change Time             |
+|    1006 | Admin     | Add new features        |
+|    1007 | Admin     | Change details of Buses |
+|    1008 | Admin     | Insert Blogs            |
+|    1009 | Admin     | Change contact details  |
+|    1010 | User      | Give Reviews            |
 
-###### 3 rows in set (0.00 sec)
+###### 10 rows in set (0.00 sec)
+
 
 ```syntax
 create table Reviews(Review_id int primary key, Name varchar(30), Comments text, foreign key(Review_id) references User(User_id));
