@@ -29,6 +29,8 @@ use EasyWay;
 ```
 ###### Database changed
 
+*** 
+
 ```syntax
 create table User (User_id int auto_increment primary key, Username varchar(10), Email varchar(2s0), Password varchar(10));
 ```
@@ -72,6 +74,8 @@ select * from User;
 |      11 | Annamalai | Annamalai@gmail.com | anna202   |
 
 ###### 11 rows in set (0.00 sec)
+
+*** 
 
 ```syntax
 create table Passenger(Id int auto_increment primary key, Name varchar(20), Age tinyint, Gender varchar(10), Mobile_No bigint unique, Address varchar(100));
@@ -118,6 +122,8 @@ select * from Passenger;
 | 1011 | Annamalai |   18 | Male   | 7695883749 | Madurai        |
 
 ###### 11 rows in set (0.00 sec)
+
+***
 
 ```syntax
 create table Booking(Booking_id int primary key, Seat_No int, Date date, Time time, Place varchar(20), BusName varchar(20), foreign key(Booking_id) references Passenger(Id));
@@ -166,6 +172,8 @@ select * from Booking;
 
 ###### 11 rows in set (0.00 sec)
 
+***
+
 ```syntax
 create table Payment(Payment_id int primary key, Card_No bigint, HolderName varchar(30), foreign key(Payment_id) references Passenger(Id));
 ```
@@ -209,6 +217,8 @@ select * from Payment;
 
 ###### 11 rows in set (0.00 sec)
 
+***
+
  ```syntax
 create table Roles(Role_id int primary key, Role_Name varchar(50), Role_Desc varchar(30));
 ```
@@ -251,6 +261,7 @@ select * from Roles;
 
 ###### 10 rows in set (0.00 sec)
 
+***
 
 ```syntax
 create table Reviews(Review_id int primary key, Name varchar(30), Comments text, foreign key(Review_id) references User(User_id));
@@ -294,3 +305,4 @@ select * from Reviews;
 |        11 | Annamalai | Helpful              |
 
 ###### 11 rows in set (0.00 sec)
+***
