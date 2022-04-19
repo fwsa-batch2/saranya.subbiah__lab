@@ -1,7 +1,7 @@
 import java.util.Scanner;
 
 
-public class factorial {
+public class Factorial {
     public static void main(String[] args) {
         Scanner Num = new Scanner(System.in);
         int no = Num.nextInt();
