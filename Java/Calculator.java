@@ -19,11 +19,12 @@ public class Calculator {
     }
     public static int sub(int a, int b) {
         return a-b;
+
     }
     public static int multiple(int a, int b) {
         return a*b;
     }
-    public static float divide(int a, int b) {
+    public static float divide(float a, float b) {
         return a/b;
     }
     public static int exponent(int a, int b) {
