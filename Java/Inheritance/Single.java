@@ -1,10 +1,10 @@
-public class SingleInheritance {
+public class Single {
     public void Name() {
       System.out.println("Saran");
     }
 }
 
-class Number extends SingleInheritance {
+class Number extends Single {
      public void Class() {
          System.out.println("Abi,Jeru,Swetha");
      }
