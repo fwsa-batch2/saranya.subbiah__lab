@@ -21,7 +21,7 @@ class Red extends Hybrid{
 }
 
 
-public class Green extends Orange {
+ class Green extends Orange {
     @Override
     public void Colors() {
         System.out.println("Green");

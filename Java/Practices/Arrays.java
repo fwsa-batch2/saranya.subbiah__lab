@@ -1,4 +1,4 @@
-package com.Practices;
+package Practices;
 
 public class Arrays {
     public static void main(String[] args)  {
