@@ -1,3 +1,5 @@
+package com.Practices;
+
 import java.util.Scanner;
 
 public class Oddeven {

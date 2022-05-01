@@ -1,4 +1,4 @@
-
+package com.Inheritance;
 
 public class Multilevel {
     public void Coffee() {

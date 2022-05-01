@@ -1,3 +1,5 @@
+package com.Inheritance;
+
 public class Single {
     public void Name() {
       System.out.println("Saran");

@@ -1,4 +1,4 @@
-package com.fwsa;
+package com.Encapsulation;
 
 public class Encapsulation {
    public String name;

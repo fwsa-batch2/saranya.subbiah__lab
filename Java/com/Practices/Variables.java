@@ -1,3 +1,5 @@
+package com.Practices;
+
 public class Variables {
      public static void main(String[] args) {
           int myNum = 10;
