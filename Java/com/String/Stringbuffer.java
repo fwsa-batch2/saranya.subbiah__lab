@@ -1,4 +1,4 @@
-package Practices;
+package com.String;
 
 public class Stringbuffer{
     public static void main(String[] args) {
