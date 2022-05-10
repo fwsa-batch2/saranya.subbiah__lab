@@ -4,17 +4,17 @@ import java.util.Scanner;
 
 public class Calculator {
     public static void main(String[] args) {
-        Scanner num1 = new Scanner(System.in);
+        Scanner a = new Scanner(System.in);
         System.out.println("Enter the first number:");
-        int value1 = num1.nextInt();
-        Scanner num2 = new Scanner(System.in);
+        int val1 = a.nextInt();
+        Scanner b = new Scanner(System.in);
         System.out.println("Enter the second number:");
-        int value2 = num2.nextInt();
-        System.out.println("Sum of numbers " + add(value1, value2));
-        System.out.println("Subtraction of numbers " + sub(value1, value2));
-        System.out.println("Multiplication of numbers " + multiple(value1, value2));
-        System.out.println("Division of numbers " + divide(value1, value2));
-        System.out.println("Exponent of numbers " + exponent(value1, value2));
+        int val2 = b.nextInt();
+        System.out.println("Sum of numbers " + add(val1, val2));
+        System.out.println("Subtraction of numbers " + sub(val1, val2));
+        System.out.println("Multiplication of numbers " + multiple(val1, val2));
+        System.out.println("Division of numbers " + divide(val1, val2));
+        System.out.println("Exponent of numbers " + exponent(val1, val2));
     }
     public static int add(int a, int b) {
         return a+b;
