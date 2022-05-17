@@ -1,0 +1,12 @@
+
+import java.sql.connection;
+public class sjdb {
+	public static void main(String[] args) {
+		String url = "jdbc:mysql://localhost:3306";
+		String Username = "Saran";
+		String Password = "Saranya";
+		try {
+			Connection connect = DriverManager.getConnection(Url,Username,Password);
+		}
+	}
+}
