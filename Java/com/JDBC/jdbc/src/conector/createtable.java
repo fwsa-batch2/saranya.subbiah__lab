@@ -1,4 +1,5 @@
 package conector;
+import java.sql.*;
 
 public class createtable {
     public static void main(String[] args) {
