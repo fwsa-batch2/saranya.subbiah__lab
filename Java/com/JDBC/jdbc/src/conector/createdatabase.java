@@ -1,12 +1,11 @@
 package conector;
 import java.sql.*;
-public class jdbc {
+public class createdatabase {
 		public static void main(String[] args) {
 			String url="jdbc:mysql://localhost:3306";
 			String user = "Saran";
 			String password = "Saranya";
-			try {
-//				Class.forName("com.mysql.cj.jdbc.Driver");
+			try {			
 				Connection connection=DriverManager.getConnection(url,user,password);
 				String sql="Create database lo" ;
 				Statement fresh= connection.createStatement();
