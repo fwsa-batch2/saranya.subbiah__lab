@@ -4,6 +4,5 @@ class LOCALVARIABLE
         puts"DairyMilk is my favorite chocolate"
     end
 end
-obj=LOCALVARIABLE.new
-obj.Chocolates
+
 

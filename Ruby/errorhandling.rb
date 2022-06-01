@@ -3,9 +3,9 @@ begin
   rescue ZeroDivisionError
     puts "It is a zero division error"         
   rescue TypeError
-    puts "It is a type error"
+    puts "It is Type error"
   else
-    puts "It is an error"
+    puts "Error"
   ensure
-    puts "Thanks for using our app"       
+    puts "Thank you"       
   end   
