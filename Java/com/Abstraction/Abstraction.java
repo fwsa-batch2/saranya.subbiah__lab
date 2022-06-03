@@ -2,9 +2,9 @@ package com.Abstraction;
 
 abstract class Dress {
     public abstract void Womens();
-   public void Kurti() {
+    public void Kurti() {
        System.out.println("Black");
-   }
+    }
 }
 
 class Chudithar extends Dress {
