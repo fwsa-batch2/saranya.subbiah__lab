@@ -11,11 +11,11 @@ class Todo
   
   def overdue 
     date = Date.today
-    return (@due_date > date)? true : false
+    return (@due_date < date)? true : false
   end
   def due_later
     date = Date.today
-    return (@due_date < date)? true : false
+    return (@due_date >date)? true : false
   end
   def due_today
     date = Date.today
@@ -23,8 +23,8 @@ class Todo
   end
   
   def to_displayable_string 
-     sym = (@completed)? "[X]" : "[]"
-     return "#{sym} #{@text}"
+     sym = (complete)? "[X]" : "[]"
+     return "#{sym} #{text} #{@due_date}"
   end
 end
 
@@ -49,8 +49,9 @@ class TodosList
   def to_displayable_list
     result = []
     @todos.each do |rec|
-      if rec.date == @due_date
-        result.push("#{rec.to_displayable_string}")
+      date = Date.today
+      if rec.date == date
+        result.push("#{rec.to_displayable_string} #{rec.date}")
       else
         result.push("#{rec.to_displayable_string} #{rec.date}")
       end
