@@ -40,9 +40,6 @@ def resolve(records,lookup_chain,domain_name)
         puts key
         if records.has_key?(key)
             lookup_chain.push(records[key])
-            #puts lookup_chain
-            # puts records[key]
-            # puts domain_name
             resolve(records,lookup_chain,domain_name)
             lookup_chain
         end
