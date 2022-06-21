@@ -1,4 +1,4 @@
-def get_command_line_argument
+def get_argument
     if ARGV.empty?
         puts "Usage: ruby lookup.rb <domain>"
         exit
@@ -7,7 +7,7 @@ def get_command_line_argument
 end
 
 
-domain = get_command_line_argument
+domain = get_argument
 
 
 
@@ -23,10 +23,12 @@ def parse_dns(params)
     arr = []
     for j in 0...array.length do
         arr[j] = array[j].split(",")
+        puts arr[j]
     end
     for j in 0...arr.length do
         hash[arr[j][1].strip] = arr[j][2].strip
     end
+    
     hash.compact
 end
 def resolve(records,lookup_chain,domain_name)
@@ -35,8 +37,12 @@ def resolve(records,lookup_chain,domain_name)
         lookup_chain
     else
         key = lookup_chain.last
+        puts key
         if records.has_key?(key)
             lookup_chain.push(records[key])
+            #puts lookup_chain
+            # puts records[key]
+            # puts domain_name
             resolve(records,lookup_chain,domain_name)
             lookup_chain
         end
