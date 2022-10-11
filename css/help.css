@@ -1,0 +1,126 @@
+
+body {
+    background-color:#021826;
+}
+#pages {
+    margin-top: 2%;
+    background-color: #02050A;
+    height: 50px;
+    padding-top: 1%;
+    text-align: center;
+    }
+    
+    a {
+    margin-left: 10%;
+    text-decoration: none;
+    color: white;
+    font-size: large;
+    }
+    
+    #wel {
+    width: 20%;
+    margin: auto;
+    margin-top: 30%;
+    color: white;
+    }
+    
+    a:hover {
+    background-color:#91C4D9;
+    border-radius: 100px;
+    }
+    #non{
+     color:#91C4D9 ;
+     font-size:50px;
+    }
+ #new
+{
+    background-color: #4B8CA6;
+    margin:20px;
+    border-radius: 120px; 
+    padding:10px;
+    width:300px;
+    height:70px;
+    font-size: 10px;
+    color: #021826;
+}  
+
+
+
+#covid
+{
+   background-color: #4B8CA6;
+   margin:20px;
+   border-radius: 120px; 
+   padding:10px;
+   width:300px;
+   height:70px;
+   font-size: 10px;
+
+}
+#safe
+{
+    background-color: #4B8CA6;
+    margin:20px;
+    border-radius: 120px; 
+    padding:10px;
+    width:300px;
+    height:70px;
+    font-size:10px;
+
+}
+#tech
+{
+    background-color: #4B8CA6;
+    margin:20px;
+    border-radius: 120px; 
+    padding:10px;
+    width:300px;
+    height:70px;
+    font-size:10px;
+
+}
+#easy
+{
+    background-color: #4B8CA6;
+    margin:20px;
+    border-radius: 120px; 
+    padding:10px;
+    width:300px;
+    height:70px;
+    font-size:10px;
+
+}
+#offer
+{
+    background-color: #4B8CA6;
+    margin:20px;
+    border-radius: 120px; 
+    padding:10px;
+    width:300px;
+    height:70px; 
+    font-size: 10px;
+
+}
+#wallet
+{
+    background-color: #4B8CA6;
+    margin:20px;
+    border-radius: 120px; 
+    padding:10px;
+    width:300px;
+    height:70px; 
+    font-size:10px;
+}
+#epool
+{
+    background-color: #4B8CA6;
+    margin:20px;
+    border-radius: 120px; 
+    padding:10px;
+    width:300px;
+    height:70px; 
+    font-size:10px;
+}
+
+  
+  

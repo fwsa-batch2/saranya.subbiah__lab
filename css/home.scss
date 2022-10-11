@@ -1,0 +1,44 @@
+// Place all the styles related to the home controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: https://sass-lang.com/
+
+*{
+    margin: 0;
+    padding: 0;
+}
+#bg {
+    margin-left: 990px;
+    width: 36%;
+    /* height: 66%; */
+    margin-top: 155px;
+}
+.joy {
+    font-size: 12px;
+    margin-left: 47px;
+    position: absolute;
+    bottom: 310px;
+    font-weight: 500;
+    color: #50935b;
+}
+.tagline {
+    font-weight: 400;
+    font-size: larger;
+    font-size: 23px;
+    bottom: 101px;
+    position: relative;
+    margin-left: 44px;
+
+}
+.Head {
+    font-weight: 400;
+    margin-left: 46px;
+    font-size: 44px;
+    bottom: 306px;
+    position: absolute;
+}
+.home {
+    position: absolute;
+    bottom: 305px;
+    left: 90px;
+}
+

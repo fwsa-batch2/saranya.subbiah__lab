@@ -1,0 +1,101 @@
+// Place all the styles related to the cafe controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: https://sass-lang.com/
+
+* {
+    margin: 0;
+    padding: 0;
+}
+.MenuCategory-Name {
+    font-size: 28px;
+    padding: 2% 0 0.5%;
+    color: rgb(0, 0, 99);
+    margin-left: 0;
+  }
+  .MenuItem-Name {
+    font-size: 20px;
+    color: rgb(0, 3, 158);
+  }
+  .CartHeading {
+    font-size: 1.8rem;
+    font-family: Montserrat;
+    font-weight: 700;
+    text-align: center;
+    margin-top: 2%;
+    padding: 2% 0;
+    color: darkblue;
+  }
+  .vertical-line {
+    border-right: 2px solid;
+  }
+  .MenuHeading {
+    font-size: 2.5rem;
+    font-family: Montserrat;
+    font-weight: 700;
+    text-align: center;
+    margin: 1% 0 0.7%;
+    padding: 1% 0;
+    color: rgb(0, 0, 99);
+  }
+  .CheckoutHeading {
+    font-size: 2rem;
+    font-family: Montserrat;
+    font-weight: 700;
+    text-align: center;
+    padding: 1% 0;
+    color: darkgreen;
+  }
+  .plus-minus {
+    display: flex;
+    align-items: center;
+  }
+  .CartItem-NumberCount {
+    font-size: 1.5rem;
+    margin: 0 0.8rem;
+  }
+  .shoppingCart-ItemHeading {
+    font-size: 1.2rem;
+  }
+  .shoppingCart-Item {
+    font-size: 1rem;
+  }
+  .plus-minus-shoppingcart {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .QuantityHeading {
+    margin-left: 15%;
+  }
+  .Menu-container {
+    width: 70%;
+  }
+  .ShoppingCart-container {
+    width: 30%;
+  }
+  .gif img {
+    margin-left: 40%;
+  }
+  .prepare {
+    margin-left: 45%;
+  }
+  .tick {
+    left: 5%;
+    position: relative;
+  }
+  .success {
+    margin-top: 10%;;
+  }
+  @media screen and (max-width: 768px) {
+    .Menu-container {
+      width: 200%;
+    }
+    .vertical-line {
+      display: none;
+    }
+    .ShoppingCart-container {
+      display: none;
+    }
+  }
+
+  

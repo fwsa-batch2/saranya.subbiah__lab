@@ -1,0 +1,67 @@
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, or any plugin's
+ * vendor/assets/stylesheets directory can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any other CSS/SCSS
+ * files in this directory. Styles in this file should be added after the last require_* statement.
+ * It is generally better to create a new file per style scope.
+ *
+ *= require_tree .
+ *= require_self
+ */
+
+ .btn {
+    text-transform: none;
+  }
+  .rails_link_to {
+    color: green;
+    text-decoration: none;
+  }
+  .rails_link_to:hover {
+    color: green;
+    background-color: transparent;
+  }
+  .linkto {
+    
+    color: blue;
+    text-decoration: none;
+  }
+  .linkto:hover {
+    color: blue;
+    background: none;
+  }
+  .UsersNew {
+    max-width: 500px;
+    text-align: center;
+  }
+  .Form-submit {
+    text-transform: none;
+  }
+  .signup {
+    color: black;
+    font-size: 1rem;
+  }
+  
+  
+  .Design-Menu {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  .navigation {
+    position: relative;
+    top: 0;
+    z-index: 20;
+  }
+  .Home-authenticate {
+    font-family: Poppins;
+    font-weight: 800;
+    font-style: italic;
+  }
+  body {
+    padding-bottom: 5rem;
+  }
+  

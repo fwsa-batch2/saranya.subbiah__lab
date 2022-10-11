@@ -1,0 +1,92 @@
+
+    body{
+         background-color:#4B8CA6;
+    }
+    #pages {
+      background-color:hsl(203, 52%, 5%);
+      height: 50px;
+      padding-top: 1%;
+      text-align: center;
+      }
+      
+      a {
+      margin-left: 10%;
+      text-decoration: none;
+      color: white;
+      }
+      
+      #wel {
+      width: 20%;
+      margin: auto;
+      margin-top: 30%;
+      color: white;
+      }
+      
+      a:hover {
+      background-color:#91C4D9;
+      border-radius: 100px;
+      }
+   #blog{
+      font-size:50px;
+      color:#021826; 
+      margin-left: 38%;
+   } 
+#chenpic img {
+      width:600px; 
+      height:400px;
+      margin-left: 30%;
+}
+#chen {
+      margin-left: 10%;
+      margin-top:3%;
+}
+#madpic img {
+      width:600px; 
+      height:400px;
+      margin-left: 30%;
+}
+#mad {
+      margin-left: 10%;
+      margin-top:3%;  
+}
+#compic img{
+      width:600px; 
+      height:400px;
+      margin-left: 30%;
+}
+#com {
+      margin-left: 10%;
+      margin-top:3%;   
+}
+#tvlpic img{
+      width:600px; 
+      height:400px;
+      margin-left: 30%;
+}
+#tvl{
+      margin-left: 10%;
+      margin-top:3%;  
+}
+#tnjpic img{
+      width:600px; 
+      height:400px;
+      margin-left: 30%; 
+}
+#tnj{
+      margin-left: 10%;
+      margin-top:3%;
+}
+#bngpic img{
+      width:600px; 
+      height:400px;
+      margin-left: 30%;  
+}
+#bng{
+      margin-left: 10%;
+      margin-top:3%; 
+}
+#safe{
+      font-size:50px;
+      color:#021826; 
+      margin-left: 23%; 
+}

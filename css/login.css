@@ -1,0 +1,40 @@
+body {
+    background-image: url('./../images/ybus.jpg');
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+}
+#container
+{
+    margin-left: 60%;
+    margin-top: 3%;
+    background-color:#021826;
+    padding: 5%;
+    height: 10%;
+    border-radius: 12%;
+    font-family: Arial, Helvetica, sans-serif; 
+    font-size: x-large; 
+    color:white;
+}
+#btnSUBMIT
+{
+ 
+    background-color:#4B8CA6;
+    width:35%;
+    height: 3%;
+    font-style: italic;
+    
+ }
+ #btnBACK
+ {
+     background-color:#4B8CA6;
+     width: 45%;
+     height: 3%;
+     font-style: italic;
+ }
+input {
+    width:200px;
+    border-radius: 10px;
+    padding : 10px 10px;
+    margin-bottom:15px; 
+}
