@@ -1,0 +1,5 @@
+/home/saranyasubbiah/C-Sharp/obj/Debug/net6.0/C-Sharp.csproj.AssemblyReference.cache
+/home/saranyasubbiah/C-Sharp/obj/Debug/net6.0/C-Sharp.GeneratedMSBuildEditorConfig.editorconfig
+/home/saranyasubbiah/C-Sharp/obj/Debug/net6.0/C-Sharp.AssemblyInfoInputs.cache
+/home/saranyasubbiah/C-Sharp/obj/Debug/net6.0/C-Sharp.AssemblyInfo.cs
+/home/saranyasubbiah/C-Sharp/obj/Debug/net6.0/C-Sharp.csproj.CoreCompileInputs.cache
